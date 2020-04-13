@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 80px;
+  background-color: #dff8eb;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    padding: 20px 40px;
+  }
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+body header img {
+  height: 4rem;
+}
+
+body header button {
+  width: 200px;
+  height: 4rem;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  background-color: #cf87bc;
+  color: white;
+  font-size: 24px;
+  -webkit-box-shadow: 0 0 5px 0 #48483a;
+          box-shadow: 0 0 5px 0 #48483a;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+body header button:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 992px) {
+  body header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body header img {
+    height: 4rem;
+  }
+  body header button {
+    display: none;
+  }
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  color: #48483a;
+  height: 100%;
+}
+
+body main .hero-text img {
+  width: 50px;
+}
+
+body main .hero-text h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+body main .hero-text h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+body main .hero-text p {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+body main .hero-text .violet {
+  color: #cf87bc;
+}
+
+body main .hero-text button {
+  width: 450px;
+  height: 4rem;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  background-color: #cf87bc;
+  color: white;
+  font-size: 24px;
+  -webkit-box-shadow: 0 0 5px 0 #48483a;
+          box-shadow: 0 0 5px 0 #48483a;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+body main .hero-text button:hover {
+  opacity: 0.8;
+}
+
+body main .hero-text .icons {
+  margin-top: 80px;
+}
+
+body main .hero-img {
+  height: 500px;
+  border-radius: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  body main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  body main .hero-text {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .hero-text h1 {
+    font-size: 48px;
+  }
+  body main .hero-text h3 {
+    font-size: 36px;
+  }
+  body main .hero-text button {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
